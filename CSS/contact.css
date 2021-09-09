@@ -1,0 +1,29 @@
+.contact {
+  height: 80vh;
+  /* background-color: rgb(239 241 255); */
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.contact::after {
+  content: "";
+  background: url("../Images/m_26.svg") no-repeat center center/cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.2;
+  position: absolute;
+  z-index: -1;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0px;
+    justify-content: center;
+}

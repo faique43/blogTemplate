@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Dancing+Script:wght@600&display=swap");
+:root {
+  --main-bg-color: rgb(0, 104, 145);
+  --dim-bg-color: rgba(0, 104, 145, 0.5);
+  --font-1: "Barlow", sans-serif;
+  --font-2: "Dancing Script", cursive;
+}
+
+.font-1{
+  font-family: var(--font-1);
+}
+
+.font-2{
+  font-family: var(--font-2);
+}
+
+.max-width-1 {
+  max-width: 80vw;
+}
+
+.max-width-2 {
+  max-width: 60vw;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.btn {
+  padding: 3px 10px;
+  padding-bottom: 5px;
+  font-family: var(--font-1);
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  color: white;
+  background-color: Var(--main-bg-color);
+}
+
+.form-control {
+  padding: 3px 6px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 0 15px;
+  font-family: var(--font-1);
+}
+
+.my-2{
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.dim{
+  color: var(--dim-bg-color);
+  font-size: 14px;
+}
+
+.form-box input, textarea{
+  padding: 3px 6px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 7px;
+  margin: 5px 0px;
+  width: 55vw;
+  font-family: var(--font-1);
+}
+
+.form-box button{
+  border-radius: 7px;
+}
+
+.blank{
+  line-height: 14px;
+}
